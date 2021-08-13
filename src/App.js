@@ -1,16 +1,16 @@
-import React from 'react';
+
 import './App.css';
-import Button from "./Components/Button/Button";
+import Todo from './Components/todo'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Learning to test Apps
-        <Button lable = "click me please"></Button>
-      </header>
+    <>
+      <div className="App">
+        <Todo />
+      </div>
       
-    </div>
+    </>
   );
 }
 
